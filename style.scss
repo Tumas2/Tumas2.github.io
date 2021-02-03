@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+h1, h2, h3,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Zilla Slab', serif;
+}
+
+body {
+    background-image: url('img/me.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+
+h1 {
+    position: fixed;
+    left: 10%;
+    top: 10%;
+    font-size: 4em;
+    text-shadow: 5px 5px rgba(0,0,0,0.2);
+}
